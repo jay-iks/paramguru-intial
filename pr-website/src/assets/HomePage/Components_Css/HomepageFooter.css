@@ -1,0 +1,47 @@
+
+
+.footer-content-wrapper{
+  background-color: #EBEBEB;
+  text-align: center;
+  height: 200px;
+  line-height:55px;
+  font-size: 25px;
+}
+.contact-info{
+  color: #575757;
+  font-size: 25px;
+  font-weight: 600;
+}
+.contact-info a{
+  color: #575757;
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 35px;
+  color: #BF9855;
+  margin-top: 10px;
+}
+
+.copyright1{
+  background-color: #B88027;
+  color: #EBEBEB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+
+}
+.wrap-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrap-icon .svg-inline--fa{
+  color: #BF9855;
+}
+

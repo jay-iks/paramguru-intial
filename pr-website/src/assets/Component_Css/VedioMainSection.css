@@ -1,0 +1,64 @@
+.MainVedioSection{
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2%;
+}
+.headingt{
+  color: #AA7B54;
+  font-size: 1.2em;
+  margin-left: 10%;
+}
+
+.VerticalSlider{
+  width: 50%;
+  border-radius: 2%;
+}
+.VerticalSlider img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.title12{
+  font-size: 1.5em;
+  margin-bottom: 0.8em;
+  height: 2.8rem;
+}
+
+.View-people{
+  margin-bottom: 0.8em;
+}
+.bookmark-share{
+  display: flex;
+  color:#ffff;
+  font-size: 1.5em;
+}
+
+.vedio-bookmark{
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #FEC006;
+    aspect-ratio: 1;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.vedio-share{
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #CFAE78;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nexttext{
+  font-size: 2em;
+}

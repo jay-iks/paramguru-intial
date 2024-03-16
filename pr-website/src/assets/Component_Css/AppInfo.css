@@ -1,0 +1,87 @@
+@font-face {
+  font-family: GothamBoldItalic;
+  src: url('/src/assets/font/Gotham/Gotham-BoldItalic.otf');
+}
+.appinfo-wrapper{
+  margin-block: 2rem;
+}
+
+.appinfo{
+  margin-top: 2em;
+  margin-inline: auto ;
+  width:90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-textcontent{
+  width: 50%;
+
+}
+
+.right-textcontent {
+  margin-inline: auto;
+}
+
+.right-textcontent img{
+  width: 10em;
+}
+
+.left-top{
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  font-style: GothamBoldItalic;
+  color: #5B6E84;
+
+}
+
+.left-bottom{
+  margin-top:10% ;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2em;
+  margin-inline:2rem ;
+
+}
+
+.left-bottom img{
+  width: 10em;
+}
+
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+  .appinfo {
+    width: 100%;
+  }
+
+  .left-textcontent {
+    width: 100%;
+  }
+
+  .left-top{
+    font-size: 1em;}
+
+  .left-bottom {
+    flex-direction: row;
+  }
+  .right-textcontent img{
+    margin: 2em;
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+  .left-top {
+    font-size: 1.em;
+  }
+
+  .right-textcontent img,
+  .left-bottom img {
+    width: 6em;
+
+  }
+}

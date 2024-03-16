@@ -1,0 +1,91 @@
+/* BasicExample.css */
+
+.card {
+  width: 18rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  margin-bottom: 10px;
+}
+
+.play-button {
+  color: white;
+  background-color: #cfae78;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* slide */
+/* BasicExample.css */
+
+.card34 {
+  width: 15rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  margin-bottom: 10px;
+}
+
+.play-button1 {
+  color: white;
+  background-color: #cfae78;
+  width: 25px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  padding: 5px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.swiper-button-prev:after{
+  color:#cfae78
+}
+
+.swiper-button-next::after{
+  color:#cfae78
+}

@@ -1,0 +1,78 @@
+/* Your custom properties */
+
+
+.hero-Section-Container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+.hero-banner-image{
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .hero-Section-Container{
+
+    height: 60%;
+  }
+}
+
+/* HomePage Navbar */
+
+.navbar{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-color: transparent;
+}
+
+.dropdown-menu{
+  background-color: #EBEBEB;
+}
+
+.dropdown-item{
+  color: #BF9755;
+} 
+.dropdown-item.active{
+   background-color: #aca394;
+}
+.dropdown-item.active:hover{
+  background-color: #aca394;
+} 
+
+/* overlay image */
+.whitecoloredlogo{
+  position: absolute;
+  top: 58%;
+  left :8%;
+  background-color: transparent;
+}
+
+.whitecoloredlogo img{
+  width: 23vw;
+}
+
+/* text as overlay */
+.changingtext-wrapper{
+  position: absolute;
+  top: 25%;
+  left :10%;
+  background-color: transparent;
+ 
+  color: #5B6E84;
+}
+
+.C-toptext{
+  font-weight: 600;
+  font-size:2.5vw ;
+}
+
+.C-downtext{
+  margin-top:-0.4em ;
+  font-weight: 600;
+  font-size:6vw ;
+}
+
+

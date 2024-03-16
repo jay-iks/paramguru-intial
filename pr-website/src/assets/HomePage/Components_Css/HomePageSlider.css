@@ -1,0 +1,120 @@
+/* Quick View */
+.quick {
+  padding-top: 0.3em;
+  color: #FFFFFF;
+  background-color: #b88027;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 2.5em;
+  font-weight: 600;
+  gap: 0.5em;
+}
+
+.quicktext {
+  margin-left: 5%;
+  font-family: GothamBook, sans-serif;
+  margin-bottom: -0.35em; 
+}
+
+.greaterthan-symbol {
+  font-size: 0.9em;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: #c98e3f;
+  width: 1.3em;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1.5%;
+}
+
+@media screen and (max-width:1000px) {
+  .greaterthan-symbol{
+    display: none;
+  }
+}
+.views-wrapper {
+  color: #b88027;
+  background-color: #FFFFFF;
+  font-family: GothamBook, sans-serif;
+}
+
+.views {
+  margin-left: 5%;
+  margin-top: 0;
+  font-size: 2.5em;
+  font-weight: 600;
+  font-family: GothamBook, sans-serif;
+
+}
+/* View All */
+
+.quickview-viweall-text-logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap:1em;
+  width:95%;
+}
+
+.quickview-viweall-text{
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+  font-family: GothamBook, sans-serif;
+  color: #BF9755;
+}
+
+.quickview-viweall-logo{
+  background-color: #BF9755;
+  color: #FFFFFF;
+  font-size: 1em;
+  width: 2em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+/* Home pageslider */
+
+.slider-wrapper{
+  margin: 1em;
+}
+
+.sliderhomepage{
+    width:95%;
+    margin-inline: auto;
+}
+
+.slick-prev{
+  position: absolute;
+  z-index: 9;
+  margin-left: 3%;
+ 
+}
+.slick-prev:before{
+  color: #BF9755;
+  font-size: 60px;
+
+}
+
+.slick-next{
+  position: absolute;
+  z-index: 9;
+  margin-right: 15%;
+  
+
+}
+
+.slick-next:before{
+  color: #b88027;
+  font-size: 50px;
+
+}
+

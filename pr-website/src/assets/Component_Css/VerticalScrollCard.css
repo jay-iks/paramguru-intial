@@ -1,0 +1,88 @@
+.card-wrapper{
+  width: 100%;
+  height: 100vh;
+}
+
+.video-card {
+  position: relative;
+  overflow: hidden;
+  width: 80%; /* Set width to 100% by default */
+  height: 200px; /* Adjust the height as needed */
+
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  height: 20%;
+
+
+}
+
+.overlay-text {
+  margin-left: 10%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+
+}
+.overlay-subtext{
+  margin-left: 10%;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Media queries for different screen sizes */
+
+@media (max-width: 768px) {
+  /* Tablet view */
+  .video-card {
+    height: 100%; /* Adjust the height for tablet view */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile view */
+  .video-card {
+    height:100%; /* Adjust the height for mobile view */
+  }
+}
+
+.overlay-Img{
+  position: absolute;
+  top: 10%;
+  left:80%;
+  background-color: #F1F1F1;
+  border-radius: 50%;
+  padding:0.5em;
+}
+
+.overlay-Img img{
+    width: 1.5em;
+}
+
+.overlay-arrowImg {
+  position: absolute;
+  top: 5%;
+  left:5%;
+  z-index: 999;
+  background-color: transparent;
+
+}
+
+.overlay-arrowImg img{
+  width: 1.5em;
+}
+
+
+

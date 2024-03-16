@@ -1,0 +1,12 @@
+.input-txt {
+  border-color: #aa7b2c  ;
+}
+
+.cityselect{
+  display: flex;
+  gap:2em;
+}
+
+.googlelocation{
+  display: flex;
+}

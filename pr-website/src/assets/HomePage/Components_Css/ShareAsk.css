@@ -1,0 +1,34 @@
+
+.shareAskwrapper{
+  width: 95%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-inline:auto ;
+}
+.shareAskContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  cursor: pointer;
+}
+
+.Shareimage img,
+.Askimage img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .shareAskContainer {
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+  }
+
+  .Shareimage img,
+  .Askimage img {
+    width: 100%;
+  }
+}
